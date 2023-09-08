@@ -1,0 +1,13 @@
+/*
+ * GPIO_private.h
+ *
+ *  Created on: Sep 8, 2023
+ *      Author: DELL
+ */
+
+#ifndef GPIO_PRIVATE_H_
+#define GPIO_PRIVATE_H_
+
+
+
+#endif /* GPIO_PRIVATE_H_ */

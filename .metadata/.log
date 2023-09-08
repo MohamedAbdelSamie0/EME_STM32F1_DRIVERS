@@ -1,141 +1,417 @@
-!SESSION 2023-09-08 08:19:54.994 -----------------------------------------------
-eclipse.buildId=Version 1.13.1
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
+!SESSION 2023-09-08 20:00:42.987 -----------------------------------------------
+eclipse.buildId=Version 1.4.0
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-08 08:20:10.387
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+This is a continuation of log file D:\EME_Embedded_EUI\STM_F103C8T6_projects\.metadata\.bak_0.log
+Created Time: 2023-09-08 21:16:52.879
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-08 08:20:10.388
-!MESSAGE Log4j2 initialized with config file D:\EME_Embedded_EUI\STM_F103C8T6_projects\.metadata\.log4j2.xml
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-08 08:20:14.150
-!MESSAGE Started RMI Server, listening on port 41337
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY org.eclipse.cdt.core 1 0 2023-09-08 08:22:01.135
-!MESSAGE Indexed 'RCC' (3 sources, 53 headers) in 1.35 sec: 1,950 declarations; 2,831 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 2 2023-09-08 09:27:14.463
-!MESSAGE Vendor: 1; 4; 3b; 4c3
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-08 09:27:14.465
-!MESSAGE Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
-!SESSION 2023-09-08 09:28:07.936 -----------------------------------------------
-eclipse.buildId=Version 1.13.1
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/EME_Embedded_EUI/STM_F103C8T6_projects/
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-08 09:28:13.718
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-08 09:28:13.718
-!MESSAGE Log4j2 initialized with config file D:\EME_Embedded_EUI\STM_F103C8T6_projects\.metadata\.log4j2.xml
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-08 09:28:19.945
-!MESSAGE Started RMI Server, listening on port 41337
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 2 2023-09-08 09:28:55.090
-!MESSAGE Vendor: 1; 4; 3b; 4c3
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-08 09:28:55.095
-!MESSAGE Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 2 2023-09-08 09:29:49.229
-!MESSAGE Vendor: 1; 4; 3b; 4c3
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-08 09:29:49.230
-!MESSAGE Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
-!SESSION 2023-09-08 09:32:58.752 -----------------------------------------------
-eclipse.buildId=Version 1.13.1
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Command-line arguments:  -os win32 -ws win32 -arch x86_64
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-08 09:33:08.095
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-08 09:33:08.095
-!MESSAGE Log4j2 initialized with config file D:\EME_Embedded_EUI\STM_F103C8T6_projects\.metadata\.log4j2.xml
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-08 09:33:14.297
-!MESSAGE Started RMI Server, listening on port 41337
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 2 2023-09-08 09:33:35.480
-!MESSAGE Vendor: 1; 4; 3b; 4c3
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-08 09:33:35.482
-!MESSAGE Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
-!SESSION 2023-09-08 10:02:15.795 -----------------------------------------------
-eclipse.buildId=Version 1.13.1
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Command-line arguments:  -os win32 -ws win32 -arch x86_64
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-08 10:02:23.235
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-08 10:02:23.235
-!MESSAGE Log4j2 initialized with config file D:\EME_Embedded_EUI\STM_F103C8T6_projects\.metadata\.log4j2.xml
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-08 10:02:29.680
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2023-09-08 10:06:53.038 -----------------------------------------------
-eclipse.buildId=Version 1.13.1
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/EME_Embedded_EUI/STM_F103C8T6_projects/
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-08 10:07:00.664
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-08 10:07:00.673
-!MESSAGE Log4j2 initialized with config file D:\EME_Embedded_EUI\STM_F103C8T6_projects\.metadata\.log4j2.xml
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-08 10:07:08.278
-!MESSAGE Started RMI Server, listening on port 41337
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 2 2023-09-08 10:07:31.079
-!MESSAGE Vendor: 1; 4; 3b; 4c3
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-08 10:07:31.080
-!MESSAGE Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 2 2023-09-08 10:09:42.805
-!MESSAGE Vendor: 1; 4; 3b; 4c3
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-08 10:09:42.807
-!MESSAGE Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 2 2023-09-08 10:10:08.557
-!MESSAGE Vendor: 1; 4; 3b; 4c3
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-08 10:10:08.558
-!MESSAGE Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
-!SESSION 2023-09-08 10:14:03.017 -----------------------------------------------
-eclipse.buildId=Version 1.13.1
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/EME_Embedded_EUI/STM_F103C8T6_projects/
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-08 10:14:07.710
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-08 10:14:07.710
-!MESSAGE Log4j2 initialized with config file D:\EME_Embedded_EUI\STM_F103C8T6_projects\.metadata\.log4j2.xml
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-08 10:14:14.993
-!MESSAGE Started RMI Server, listening on port 41337
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 2 2023-09-08 10:14:38.319
-!MESSAGE Vendor: 1; 4; 3b; 4c3
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.879
+!MESSAGE Type or version is empty: ; 
 
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-08 10:14:38.320
-!MESSAGE Could not verify ST device! Please verify that the latest version of the GDB-server is used for the connection.
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.879
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.899
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.899
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.910
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.910
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.910
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.910
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.910
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.910
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.910
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.910
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.910
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.910
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.910
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.910
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.910
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.910
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.926
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.926
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.926
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.926
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.942
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.942
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:52.942
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:52.942
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.080
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.080
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.080
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.080
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.127
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.127
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.127
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.127
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.127
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.127
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.127
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.127
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.143
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.143
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.143
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.143
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.143
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.143
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.143
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.143
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.143
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.143
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.143
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.143
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.143
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.143
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.143
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.143
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.239
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.239
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.255
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.255
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.255
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.255
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.255
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.255
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.255
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.255
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:16:54.286
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:16:54.286
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:17:48.444
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:17:48.444
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:17:48.444
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:17:48.444
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:17:48.444
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:17:48.444
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-08 21:17:48.444
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-08 21:17:48.444
+!MESSAGE Falling back to default toolchain

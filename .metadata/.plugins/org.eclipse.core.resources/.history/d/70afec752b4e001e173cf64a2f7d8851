@@ -1,0 +1,14 @@
+/*********************************************************************************/
+/*	Module		: GPIO
+ *	File name	: GPIO_private.h
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 08/09/2023
+*********************************************************************************/
+
+#ifndef GPIO_PRIVATE_H_
+#define GPIO_PRIVATE_H_
+
+
+
+#endif /* GPIO_PRIVATE_H_ */

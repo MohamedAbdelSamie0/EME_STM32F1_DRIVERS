@@ -1,0 +1,13 @@
+/*
+ * GPIO_interface.h
+ *
+ *  Created on: Sep 8, 2023
+ *      Author: DELL
+ */
+
+#ifndef GPIO_INTERFACE_H_
+#define GPIO_INTERFACE_H_
+
+
+
+#endif /* GPIO_INTERFACE_H_ */
