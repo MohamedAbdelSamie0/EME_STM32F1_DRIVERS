@@ -16,14 +16,14 @@
  ******************************************************************************
  */
 
-//#include <stdint.h>
+#include <stdint.h>
 #include "RCC_interface.h"
 
 #define ARM_DELAY_MS(d)	\
-	do(	\
+	do{	\
 			uint32 i = 500 * d; \
 			while( i--){asm("nop");} \
-			)while(0)
+	}while(0)
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."

@@ -10,7 +10,12 @@
 #include "RCC_private.h"
 #include "RCC_Cfg.h"
 
-/*	Initialize clock of STM board	*/
+/*	name:		RCC_voidInitSysClock
+ * description: Function to select clock source
+ * reentrant:	Non Reentrant function
+ * input:		void
+ * output:		void
+ */
 void RCC_voidInitSysClock(void)
 {
     #if     RCC_CLOCK_TYPE == RCC_HSI
@@ -58,7 +63,13 @@ void RCC_voidInitSysClock(void)
     #endif
 }
 
-void RCC_voidEnableClock(uint8 Copy_u8BusId, uint8 Copy_u8PerId)
+/*	name:		RCC_voidEnableClock
+ * description: Function to enable peripheral clock
+ * reentrant:	Non Reentrant function
+ * input:		BUS_id, peripheral_id
+ * output:		void
+ */
+void RCC_voidEnableClock(uint8 Copy_u8BusId, uint16 Copy_u8PerId)
 {
     if (Copy_u8PerId <= 31)
     {
@@ -84,7 +95,12 @@ void RCC_voidEnableClock(uint8 Copy_u8BusId, uint8 Copy_u8PerId)
     }
 }
 
-
+/*	name:		RCC_voidDisableClock
+ * description: Function to disable peripheral clock
+ * reentrant:	Non Reentrant function
+ * input:		BUS_id, peripheral_id
+ * output:		void
+ */
 void RCC_voidDisableClock(uint8 Copy_u8BusId, uint8 Copy_u8PerId)
 {
     if (Copy_u8PerId <= 31)

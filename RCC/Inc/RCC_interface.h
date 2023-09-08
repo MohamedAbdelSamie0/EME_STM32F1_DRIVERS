@@ -103,7 +103,7 @@ typedef enum
 /***************   Function definition    ******************/
 
 void RCC_voidInitSysClock(void);
-void RCC_voidEnableClock(uint8 Copy_u8BusId, uint8 Copy_u8PerId);
+void RCC_voidEnableClock(uint8 Copy_u8BusId, uint16 Copy_u8PerId);
 void RCC_voidDisableClock(uint8 Copy_u8BusId, uint8 Copy_u8PerId);
 
 #endif // RCC_INTERFACE_H

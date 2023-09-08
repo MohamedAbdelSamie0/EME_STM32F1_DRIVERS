@@ -25,7 +25,7 @@ typedef struct {
 
 /*******************   BASE Address Definition    *********************/
 
-#define RCC_BASE_ADDRESS	0x40021000		//define the boundary address of RCC
+#define RCC_BASE_ADDRESS	0x40021000UL		//define the boundary address of RCC
 
 #define RCC ( ( volatile RCC_t* ) RCC_BASE_ADDRESS)
 
