@@ -1,0 +1,70 @@
+/*********************************************************************************/
+/*	Module		: NVIC
+ *	File name	: NVIC_private.h
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 09/09/2023
+*********************************************************************************/
+
+#ifndef NVIC_PRIVATE_H_
+#define NVIC_PRIVATE_H_
+
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+
+/*******************   Groups & SUB Definition     ***********************/
+/*	splits the NVIC_PRI_n fields in the Interrupt Priority Registers into separate group priority and subgroups priority fields	*/
+/*	KEY TO ACCESS REGISTER IS 0x5FA0	*/
+#define GROUP_16_SUB_0					0x05FA0300	/*	0 subgroups & 16 groups   << 0  */
+#define GROUP_8_SUB_2					0x05FA0400	/*	1 subgroups & 8 groups   << 1  */
+#define GROUP_4_SUB_4					0x05FA0500	/*	2 subgroups & 4 groups   << 2  */
+#define GROUP_2_SUB_8					0x05FA0600	/*	3 subgroups & 2 groups   << 3  */
+#define GROUP_0_SUB_16					0x05FA0700	/*	4 subgroups & 0 groups   << 4  */
+
+/*******************   Base Addresses     ***********************/
+#define NVIC_Base_Address		0xE000E100
+#define SCB_Base_Address		0xE000ED00
+
+#define NVIC					( ( volatile NVIC_t* ) NVIC_Base_Address )
+#define SCB						( ( volatile SCB_t* ) SCB_Base_Address )
+
+/*******************	Registers	***********************/
+/* Nested Vectored Interrupt Controller (NVIC) */
+typedef struct {
+	/* Enable External interrupts from 0 to 31 & from 32 to 60 */
+	volatile uint32 ISER[2];               /* Offset: 0x000 (R/W)  Interrupt Set Enable Register */
+	volatile uint32 RESERVED0[30];
+	volatile uint32 ICER[2];               /* Offset: 0x080 (R/W)  Interrupt Clear Enable Register */
+	volatile uint32 RSERVED1[30];
+	volatile uint32 ISPR[2];               /* Offset: 0x100 (R/W)  Interrupt Set Pending Register */
+	volatile uint32 RESERVED2[30];
+	volatile uint32 ICPR[2];               /* Offset: 0x180 (R/W)  Interrupt Clear Pending Register */
+	volatile uint32 RESERVED3[30];
+	volatile uint32 IABR[2];               /* Offset: 0x200 (R/W)  Interrupt Active bit Register */
+	volatile uint32 RESERVED4[62];
+	volatile uint8  IP[60];               /* Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) */
+	volatile uint32 RESERVED5[689];
+	volatile uint32 STIR;                   /* Offset: 0xE00 ( /W)  Software Trigger Interrupt Register */
+}NVIC_t;
+
+/* System control block (SCB) */
+typedef struct
+{
+	volatile uint32 CPUID;
+	volatile uint32 ICSR;
+	volatile uint32 VTOR;
+	volatile uint32 AIRCR;
+	volatile uint32 SCR;
+	volatile uint32 CCR;
+	volatile uint32 SHPR1;
+	volatile uint32 SHPR2;
+	volatile uint32 SHPR3;
+	volatile uint32 SHCSR;
+	volatile uint32 CFSR;
+	volatile uint32 HFSR;
+	volatile uint32 RESERVED;
+	volatile uint32 MMFAR;
+	volatile uint32 BFAR;
+}SCB_t;	/*	used to set priority grouping	*/
+
+#endif /* NVIC_PRIVATE_H_ */

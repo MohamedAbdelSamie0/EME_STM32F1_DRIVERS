@@ -1,28 +1,10 @@
-21:16:52 **** Build of configuration Debug for project RCC ****
+13:26:58 **** Incremental Build of configuration Debug for project RCC ****
 make -j8 all 
-arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c8tx.d" -MT"Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c8tx.o" "../Startup/startup_stm32f103c8tx.s"
-arm-none-eabi-gcc "../Src/RCC_program.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/RCC_program.d" -MT"Src/RCC_program.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/RCC_program.o"
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
-../Src/main.c: In function 'main':
-../Src/main.c:37:8: warning: unused variable 'x' [-Wunused-variable]
-  uint8 x = 10;
-        ^
-arm-none-eabi-gcc -o "RCC.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\RCC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RCC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: RCC.elf
- 
 arm-none-eabi-size   RCC.elf 
-arm-none-eabi-objdump -h -S  RCC.elf  > "RCC.list"
-arm-none-eabi-objcopy  -O binary  RCC.elf  "RCC.bin"
    text	   data	    bss	    dec	    hex	filename
     788	      8	   1568	   2364	    93c	RCC.elf
 Finished building: default.size.stdout
-Finished building: RCC.list
- 
-Finished building: RCC.bin
- 
  
 
-21:16:54 Build Finished. 0 errors, 1 warnings. (took 1s.122ms)
+13:26:58 Build Finished. 0 errors, 0 warnings. (took 205ms)
 

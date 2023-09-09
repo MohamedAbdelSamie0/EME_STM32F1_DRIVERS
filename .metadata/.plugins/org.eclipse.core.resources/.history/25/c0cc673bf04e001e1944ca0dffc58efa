@@ -1,0 +1,20 @@
+/*********************************************************************************/
+/*	Module		: NVIC
+ *	File name	: NVIC_interface.h
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 09/09/2023
+*********************************************************************************/
+
+#ifndef NVIC_INTERFACE_H_
+#define NVIC_INTERFACE_H_
+/*******************   Groups & SUB Definition     ***********************/
+/* splits the NVIC_PRI_n fields in the Interrupt Priority Registers into separate group priority and subpriority fields.*/
+#define GROUP3 						    0x05FA0300	/*0 bit for sub & 4 bit For group   << 0  */
+#define GROUP4 						    0x05FA0400	/*1 bit for sub & 3 bit For group   << 1  */
+#define GROUP5 						    0x05FA0500	/*2 bit for sub & 2 bit For group   << 2  */
+#define GROUP6 						    0x05FA0600	/*3 bit for sub & 1 bit For group   << 3  */
+#define GROUP7 						    0x05FA0700	/*4 bit for sub & 0 bit For group   << 4  */
+
+
+#endif /* NVIC_INTERFACE_H_ */

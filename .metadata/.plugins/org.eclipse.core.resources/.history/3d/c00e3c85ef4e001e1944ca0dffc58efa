@@ -1,0 +1,35 @@
+/*********************************************************************************/
+/*	Module		: NVIC
+ *	File name	: NVIC_private.h
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 09/09/2023
+*********************************************************************************/
+
+#ifndef NVIC_PRIVATE_H_
+#define NVIC_PRIVATE_H_
+
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+
+#define register_key	0x5FA
+/*******************   Register Definition     ***********************/
+typedef struct
+{
+	/* Enable External interrupts from 0 to 31 & from 32 to 63 */
+	volatile uint32 ISER[2];               /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register */
+	volatile uint32 RESERVED0[30];
+	volatile uint32 ICER[2];               /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register */
+	volatile uint32 RSERVED1[30];
+	volatile uint32 ISPR[2];               /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register */
+	volatile uint32 RESERVED2[30];
+	volatile uint32 ICPR[2];               /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register */
+	volatile uint32 RESERVED3[30];
+	volatile uint32 IABR[2];               /*!< Offset: 0x200 (R/W)  Interrupt Active bit Register */
+	volatile uint32 RESERVED4[62];
+	volatile uint8  IP[60];               /*!< Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) */
+	volatile uint32 RESERVED5[689];
+	volatile uint32 STIR;                   /*!< Offset: 0xE00 ( /W)  Software Trigger Interrupt Register */
+}NVIC_t;
+
+#endif /* NVIC_PRIVATE_H_ */

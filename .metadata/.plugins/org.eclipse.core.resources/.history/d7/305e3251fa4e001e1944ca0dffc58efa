@@ -1,0 +1,37 @@
+/*********************************************************************************/
+/*	Module		: NVIC
+ *	File name	: NVIC_program.c
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 09/09/2023
+*********************************************************************************/
+
+#include "NVIC_Cfg.h"
+#include "NVIC_interface.h"
+#include "NVIC_private.h"
+
+void NVIC_voidSetGrouping(void)
+{
+	SCB-> AIRCR = GROUPING_PRIO_SUBGROUPING_PRIO;
+}
+
+void NVIC_voidEnableInterrupt(IRQn_t IRQn)
+{
+	if(IRQn >=0 || IRQn < 32)
+	{
+		NVIC->ISER[0] |= (1 << IRQn);
+	}
+	else if(IRQn < 62)
+	{
+		NVIC->ISER[1] |= (1 << IRQn);
+	}
+	else
+	{
+		#error ("Wrong IRQ number")
+	}
+}
+
+void NVIC_voidDisableInterrupt(IRQn_t IRQn)
+{
+
+}

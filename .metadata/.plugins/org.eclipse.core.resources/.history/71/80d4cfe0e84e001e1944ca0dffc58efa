@@ -1,0 +1,14 @@
+/*********************************************************************************/
+/*	Module		: NVIC
+ *	File name	: NVIC_private.h
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 09/09/2023
+*********************************************************************************/
+
+#ifndef NVIC_PRIVATE_H_
+#define NVIC_PRIVATE_H_
+
+
+
+#endif /* NVIC_PRIVATE_H_ */

@@ -1,0 +1,13 @@
+/*
+ * NVIC_interface.h
+ *
+ *  Created on: Sep 9, 2023
+ *      Author: DELL
+ */
+
+#ifndef NVIC_INTERFACE_H_
+#define NVIC_INTERFACE_H_
+
+
+
+#endif /* NVIC_INTERFACE_H_ */
