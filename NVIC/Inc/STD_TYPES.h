@@ -11,6 +11,9 @@
 /* Boolean Data Type */
 typedef unsigned char  		Bool;
 
+/*	NULL pointer	*/
+#define NULL_PTR			(void*)0
+
 /* Boolean Values */
 #define FALSE       				(0u)
 #define TRUE        				(1u)
