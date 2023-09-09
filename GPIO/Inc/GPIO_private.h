@@ -22,6 +22,12 @@ typedef struct {
 	volatile uint32 LCKR;
 }GPIO_t;
 
+/*******************	LOCK BIT	*********************/
+#define LOCK_BIT				0x10
+
+#define LOCK_SUCCES				1
+#define LOCK_FAIL				0
+
 /*******************   BASE Address    *********************/
 #define GPIOA_Base_Address      0x40010800
 #define GPIOB_Base_Address      0x40010C00

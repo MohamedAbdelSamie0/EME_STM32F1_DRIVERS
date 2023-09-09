@@ -264,3 +264,78 @@ void  GPIO_voidSetPinPull(uint8 Copy_u8Port, uint8 Copy_u8Pin, uint8 Copy_u8Pull
 		/* DO NOTHING; ERROR handling */
 	}
 }
+
+/*	name:		GPIO_u8LockPinConfiguration
+ * description: Function to lock configuration of a pin till next reset
+ * reentrant:	Non-reentrant function
+ * input:		port, pin
+ * output:		Lock success or fail
+ */
+uint8 GPIO_u8LockPinConfiguration(uint8 Copy_u8Port, uint8 Copy_u8Pin)
+{
+	uint8 Local_u8LockState = LOCK_FAIL;
+
+	if(Copy_u8Port < 3)
+		{
+			switch (Copy_u8Port)
+			{
+				 /*** PORT A ***/
+				case GPIO_A:
+					if(Copy_u8Pin < LOCK_BIT)
+					{
+						SET_BIT(GPIO_A_PORT-> LCKR, Copy_u8Pin);
+						/*	start locking sequence on bit 16	*/
+						SET_BIT(GPIO_A_PORT-> LCKR, LOCK_BIT);
+						CLR_BIT(GPIO_A_PORT-> LCKR, LOCK_BIT);
+						SET_BIT(GPIO_A_PORT-> LCKR, LOCK_BIT);
+						Local_u8LockState = GET_BIT(GPIO_A_PORT-> LCKR, LOCK_BIT);
+						if(GET_BIT(GPIO_A_PORT-> LCKR, LOCK_BIT) == 1)
+						{
+							Local_u8LockState = LOCK_SUCCES;
+						}
+					}
+					break;
+
+				/*** PORT B ***/
+				case GPIO_B:
+					if(Copy_u8Pin < LOCK_BIT)
+					{
+						/*	start locking sequence on bit 16	*/
+						SET_BIT(GPIO_B_PORT-> LCKR, LOCK_BIT);
+						CLR_BIT(GPIO_B_PORT-> LCKR, LOCK_BIT);
+						SET_BIT(GPIO_B_PORT-> LCKR, LOCK_BIT);
+						Local_u8LockState = GET_BIT(GPIO_B_PORT-> LCKR, LOCK_BIT);
+						if(GET_BIT(GPIO_B_PORT-> LCKR, LOCK_BIT) == 1)
+						{
+							Local_u8LockState = LOCK_SUCCES;
+						}
+					}
+					break;
+
+				/*** PORT C ***/
+				case GPIO_C:
+					if(Copy_u8Pin < LOCK_BIT)
+					{
+						/*	start locking sequence on bit 16	*/
+						SET_BIT(GPIO_C_PORT-> LCKR, LOCK_BIT);
+						CLR_BIT(GPIO_C_PORT-> LCKR, LOCK_BIT);
+						SET_BIT(GPIO_C_PORT-> LCKR, LOCK_BIT);
+						Local_u8LockState = GET_BIT(GPIO_C_PORT-> LCKR, LOCK_BIT);
+						if(GET_BIT(GPIO_C_PORT-> LCKR, LOCK_BIT) == 1)
+						{
+							Local_u8LockState = LOCK_SUCCES;
+						}
+					}
+					break;
+
+				default :
+					break;
+			}
+		}
+		else
+		{
+			/* DO NOTHING; ERROR handling */
+		}
+	return Local_u8LockState;
+}
+
