@@ -12737,19 +12737,37 @@ Created Time: 2023-09-09 09:35:40.228
 !ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-09 13:26:58.324
 !MESSAGE Falling back to default toolchain
 
-!ENTRY org.eclipse.core.resources 4 568 2023-09-09 22:23:38.237
-!MESSAGE Could not write metadata for '/EXTI'.
-!STACK 0
-java.io.FileNotFoundException: D:\EME_Embedded_EUI\STM_F103C8T6_projects\.metadata\.plugins\org.eclipse.core.resources\.projects\EXTI\.markers.snap (The system cannot find the path specified)
-	at java.io.FileOutputStream.open0(Native Method)
-	at java.io.FileOutputStream.open(FileOutputStream.java:270)
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
-	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
-	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1767)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1848)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1202)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
-	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!ENTRY org.eclipse.ui.ide 4 4 2023-09-09 22:28:21.851
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2023-09-09 22:28:21.851
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-09-09 22:28:21.851
+!MESSAGE The project description file (.project) for 'EXTI' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-09 22:28:22.077
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-09 22:28:22.077
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-09 22:28:22.081
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-09 22:28:22.081
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-09 22:28:22.081
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-09 22:28:22.081
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2023-09-09 22:28:22.083
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2023-09-09 22:28:22.083
+!MESSAGE Falling back to default toolchain
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-09 22:28:22.306
+!MESSAGE The workspace will exit with unsaved changes in this session.
