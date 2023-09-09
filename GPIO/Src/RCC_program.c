@@ -84,8 +84,8 @@ void RCC_voidEnableClock(uint8 Copy_u8BusId, uint16 Copy_u8PerId)
             case RCC_APB2 :
             	SET_BIT(RCC->APB2ENR ,Copy_u8PerId);
             	break;
-            default	:
-            	break;
+            //default	:
+            	//break;
         }
     }
 
@@ -116,8 +116,8 @@ void RCC_voidDisableClock(uint8 Copy_u8BusId, uint8 Copy_u8PerId)
             case RCC_APB2 :
             	CLR_BIT(RCC->APB2ENR ,Copy_u8PerId);
             	break;
-            default	:
-            	break;
+            //default	:
+            	//break;
         }
     }
 

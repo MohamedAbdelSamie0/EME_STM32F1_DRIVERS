@@ -1,5 +1,0 @@
-../Src/GPIO_program.c:12:7:GPIO_voidSetPinDirection	12
-../Src/GPIO_program.c:68:7:GPIO_voidSetPinValue	11
-../Src/GPIO_program.c:117:7:GPIO_u8GetPinValue	5
-../Src/GPIO_program.c:147:7:GPIO_voidTogglePinValue	5
-../Src/GPIO_program.c:177:7:GPIO_voidSetPinPull	11

@@ -25,7 +25,7 @@ void  GPIO_voidSetPinDirection(uint8 Copy_u8Port, uint8 Copy_u8Pin, uint8 Copy_u
 		        case GPIO_A:
 		            if (Copy_u8Pin <= 7)
 		            {	/*	port configuration low register	*/
-		                GPIO_A_PORT->CRL &= ~((0b1111)      << (Copy_u8Pin * 4));
+		                GPIO_A_PORT->CRL &= ~((0b1111) << (Copy_u8Pin * 4));
 		                GPIO_A_PORT->CRL |=  ((Copy_u8Mode) << (Copy_u8Pin * 4));
 		            }
 		            else if (Copy_u8Pin <= 15)
@@ -139,7 +139,7 @@ void  GPIO_voidSetPinValue(uint8 Copy_u8Port, uint8 Copy_u8Pin, uint8 Copy_u8Val
 uint8 GPIO_u8GetPinValue(uint8 Copy_u8Port, uint8 Copy_u8Pin)
 {
     uint8 LOC_u8Result = 0;
-    if(Copy_u8Port)
+    if(Copy_u8Port < 3)
     {
 		switch (Copy_u8Port)
 		{
@@ -166,7 +166,7 @@ uint8 GPIO_u8GetPinValue(uint8 Copy_u8Port, uint8 Copy_u8Pin)
     else
         {
             /* ERROR handling */
-    	return 0xFFFF;	/*	value to indicate error	*/
+    	return 0xFF;	/*	value to indicate error	*/
         }
 }
 
@@ -178,7 +178,7 @@ uint8 GPIO_u8GetPinValue(uint8 Copy_u8Port, uint8 Copy_u8Pin)
  */
 void  GPIO_voidTogglePinValue(uint8 Copy_u8Port, uint8 Copy_u8Pin)
 {
-	if(Copy_u8Port)
+	if(Copy_u8Port < 3)
 	{
 		switch (Copy_u8Port)
 		{
@@ -215,7 +215,7 @@ void  GPIO_voidTogglePinValue(uint8 Copy_u8Port, uint8 Copy_u8Pin)
  */
 void  GPIO_voidSetPinPull(uint8 Copy_u8Port, uint8 Copy_u8Pin, uint8 Copy_u8Pull)
 {
-	if(Copy_u8Port)
+	if(Copy_u8Port < 3)
 	{
 		switch (Copy_u8Port)
 		{

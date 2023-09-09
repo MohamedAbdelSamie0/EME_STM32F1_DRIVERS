@@ -28,8 +28,8 @@ typedef struct {
 #define GPIOC_Base_Address      0x40011000
 
 /***********   REGISTER ADDRESS FOR GPIOx     ***********************/
-#define GPIO_A_PORT				( volatile GPIO_t* ) GPIOA_Base_Address
-#define GPIO_B_PORT				( volatile GPIO_t* ) GPIOB_Base_Address
-#define GPIO_C_PORT				( volatile GPIO_t* ) GPIOC_Base_Address
+#define GPIO_A_PORT				( ( volatile GPIO_t* ) GPIOA_Base_Address)
+#define GPIO_B_PORT				( (volatile GPIO_t* ) GPIOB_Base_Address)
+#define GPIO_C_PORT				( ( volatile GPIO_t* ) GPIOC_Base_Address)
 
 #endif /* GPIO_PRIVATE_H_ */
