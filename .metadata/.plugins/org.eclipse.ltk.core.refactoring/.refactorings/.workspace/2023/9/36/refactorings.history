@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/EXTI/Src/RCC_Cfg.h" element2="/EXTI/Src/RCC_interface.h" element3="/EXTI/Src/RCC_private.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1694263983936"/>
-</session>
