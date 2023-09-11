@@ -1,0 +1,18 @@
+/*********************************************************************************/
+/*	Module		: AFIO
+ *	File name	: AFIO_program.c
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 09/09/2023
+*********************************************************************************/
+
+void AFIO_voidSetEXTIConfiguration(uint8 Copy_u8EXTI_Line, uint8 Copy_u8Port)
+{
+	/*	variable to determine which EXTIx register to access	*/
+	uint8 Local_u8RegisterIdx = 0;
+
+}
+void AFIO_voidRemapPeripheralPins(uint8 Copy_u8Port)
+{
+
+}

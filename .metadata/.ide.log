@@ -2474,3 +2474,92 @@
 2023-09-09 22:47:18,292 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
 2023-09-09 22:47:18,436 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
 2023-09-09 22:47:18,436 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:49:35,151 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:49:35,151 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:49:35,303 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:49:35,305 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:49:35,438 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:49:35,438 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:49:35,625 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:49:35,625 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:49:35,758 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:49:35,758 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:49:35,898 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:49:35,898 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:49:52,768 [INFO] MainUpdater:2268 - connection check result : 10
+2023-09-09 22:49:52,908 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-09-09 22:49:52,921 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\DELL\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2023-09-09 22:49:52,923 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2023-09-09 22:49:52,924 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2023-09-09 22:49:53,168 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2023-09-09 22:49:53,172 [INFO] DetailPanel:331 - Set advertising image to C:/Users/DELL/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2023-09-09 22:49:53,338 [INFO] McuFilterPanel:245 - Update 1 favorites MCUs
+2023-09-09 22:50:16,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.4
+2023-09-09 22:50:16,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.3
+2023-09-09 22:50:16,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.2
+2023-09-09 22:50:16,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.1
+2023-09-09 22:50:16,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
+2023-09-09 22:50:18,088 [INFO] ApiDb:226 - Save user favorites file C:\Users\DELL/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2023-09-09 22:50:18,088 [INFO] ApiDb:230 - User favorites MCUs=[STM32F103C8Tx]
+2023-09-09 22:50:21,708 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:50:21,708 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:50:21,848 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:50:21,848 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:50:22,039 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:50:22,039 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:53:34,537 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:53:34,537 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:53:34,908 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:53:34,908 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-09 22:53:35,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-09 22:53:35,627 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 12:57:08,708 [INFO] Activator:178 - 
+
+
+2023-09-10 12:57:08,708 [INFO] Activator:179 - !SESSION log4j initialized
+2023-09-10 12:57:18,195 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 12:57:18,206 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 12:57:18,321 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 12:57:18,321 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 12:57:18,432 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 12:57:18,432 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 12:57:24,691 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-09-10 12:57:24,691 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-09-10 12:57:25,507 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2023-09-10 12:57:25,507 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2023-09-10 12:57:26,355 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2023-09-10 12:57:26,355 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2023-09-10 13:43:14,053 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:14,053 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:14,196 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:14,196 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:14,327 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:14,327 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:14,465 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:14,465 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:14,591 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:14,591 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:14,718 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:14,718 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:14,843 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:14,843 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:14,969 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:14,969 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:15,081 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:15,081 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:15,271 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:15,271 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:15,415 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:15,415 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:43:15,538 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:43:15,538 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:45:40,852 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:45:40,852 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:45:41,071 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:45:41,071 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-10 13:45:41,789 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-10 13:45:41,789 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-11 15:13:20,962 [INFO] Activator:178 - 
+
+
+2023-09-11 15:13:20,962 [INFO] Activator:179 - !SESSION log4j initialized

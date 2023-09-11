@@ -1,0 +1,16 @@
+/*********************************************************************************/
+/*	Module		: AFIO
+ *	File name	: AFIO_program.c
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 09/09/2023
+*********************************************************************************/
+
+void AFIO_voidSetEXTIConfiguration(uint8 Copy_u8EXTI_Line, uint8 Copy_u8Port)
+{
+
+}
+void AFIO_voidRemapPeripheralPins(uint8 Copy_u8Port)
+{
+
+}
