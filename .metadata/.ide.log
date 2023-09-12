@@ -2563,3 +2563,359 @@
 
 
 2023-09-11 15:13:20,962 [INFO] Activator:179 - !SESSION log4j initialized
+2023-09-11 16:33:20,972 [INFO] ApplicationProperties:181 - Using Application install path: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2023-09-11 16:33:20,992 [INFO] DbMcusXml:70 - Set database path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2023-09-11 16:33:21,000 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2023-09-11 16:33:21,000 [INFO] DbMcus:258 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,000 [INFO] DbBoards:264 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,004 [INFO] DbExamples:326 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,030 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,032 [INFO] DbMcusJson:63 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,032 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,036 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,132 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-09-11 16:33:21,140 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,272 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2023-09-11 16:33:21,386 [INFO] MicroXplorer:564 - Detected Java Version = 1.8.0_252
+2023-09-11 16:33:21,386 [INFO] DbMcusXml:70 - Set database path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2023-09-11 16:33:21,386 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2023-09-11 16:33:21,389 [INFO] DbMcus:258 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,389 [INFO] DbBoards:264 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,390 [INFO] DbExamples:326 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,390 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,390 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,390 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,390 [INFO] DbMcusJson:63 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,390 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,390 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,390 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,390 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,390 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,390 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,390 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-09-11 16:33:21,390 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,390 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,472 [INFO] MainPanel:189 - HeapMemory: 272629760
+2023-09-11 16:33:21,572 [INFO] DbMcusXml:70 - Set database path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2023-09-11 16:33:21,572 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2023-09-11 16:33:21,572 [INFO] DbMcus:258 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,577 [INFO] DbBoards:264 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,577 [INFO] DbExamples:326 - Set plugin images path to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2023-09-11 16:33:21,577 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,577 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,577 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,577 [INFO] DbMcusJson:63 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,577 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,577 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,577 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,577 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,577 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,577 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,577 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-09-11 16:33:21,577 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2023-09-11 16:33:21,577 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-11 16:33:21,593 [INFO] ApplicationProperties:181 - Using Application install path: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2023-09-11 16:33:21,593 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2023-09-11 16:33:21,593 [INFO] PluginManage:292 - Check plugin analytics
+2023-09-11 16:33:21,780 [INFO] AnalyticsPlugin:203 - Accepted Software Licenses: 
+2023-09-11 16:33:21,780 [INFO] AnalyticsPlugin:205 - Accepted CMSIS Pack Licenses: 
+2023-09-11 16:33:21,780 [INFO] AnalyticsPlugin:207 - Accepted Firmware Licenses: 
+2023-09-11 16:33:21,780 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-09-11 16:33:21,780 [INFO] PluginManage:292 - Check plugin clock
+2023-09-11 16:33:21,802 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2023-09-11 16:33:21,802 [INFO] PluginManage:292 - Check plugin ddr
+2023-09-11 16:33:21,802 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-09-11 16:33:21,802 [INFO] PluginManage:292 - Check plugin filemanager
+2023-09-11 16:33:21,951 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-09-11 16:33:21,951 [INFO] PluginManage:292 - Check plugin ipmanager
+2023-09-11 16:33:21,960 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-09-11 16:33:21,960 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2023-09-11 16:33:21,975 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-09-11 16:33:21,975 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2023-09-11 16:33:22,012 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-09-11 16:33:22,012 [INFO] PluginManage:292 - Check plugin power
+2023-09-11 16:33:22,055 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2023-09-11 16:33:22,055 [INFO] PluginManage:292 - Check plugin projectmanager
+2023-09-11 16:33:22,070 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-09-11 16:33:22,070 [INFO] PluginManage:292 - Check plugin thirdparty
+2023-09-11 16:33:22,122 [INFO] ThirdPartyDb:333 - Open Third Party DataBase File (C:/Users/DELL/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 8 ms. number of Sw pack : 13
+2023-09-11 16:33:22,135 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-09-11 16:33:22,135 [INFO] PluginManage:292 - Check plugin tools
+2023-09-11 16:33:22,166 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2023-09-11 16:33:22,166 [INFO] PluginManage:292 - Check plugin tutovideos
+2023-09-11 16:33:22,451 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-09-11 16:33:22,451 [INFO] PluginManage:292 - Check plugin updater
+2023-09-11 16:33:22,462 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2023-09-11 16:33:22,468 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2023-09-11 16:33:22,709 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2023-09-11 16:33:22,912 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:22,912 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2023-09-11 16:33:22,943 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:22,943 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2023-09-11 16:33:22,974 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:22,974 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2023-09-11 16:33:22,999 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,000 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2023-09-11 16:33:23,023 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,023 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2023-09-11 16:33:23,052 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,052 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2023-09-11 16:33:23,122 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,122 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2023-09-11 16:33:23,139 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,140 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2023-09-11 16:33:23,170 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,170 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2023-09-11 16:33:23,182 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,182 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2023-09-11 16:33:23,201 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,201 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2023-09-11 16:33:23,272 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,272 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2023-09-11 16:33:23,341 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,341 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2023-09-11 16:33:23,459 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,460 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2023-09-11 16:33:23,500 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,500 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2023-09-11 16:33:23,531 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,531 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2023-09-11 16:33:23,575 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,575 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2023-09-11 16:33:23,612 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,612 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2023-09-11 16:33:23,700 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,700 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2023-09-11 16:33:23,742 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,742 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2023-09-11 16:33:23,860 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:23,860 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2023-09-11 16:33:24,030 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,030 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2023-09-11 16:33:24,075 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,075 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2023-09-11 16:33:24,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,120 [INFO] PluginManager:200 - loadIPPluginJar : add openamp
+2023-09-11 16:33:24,162 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,162 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2023-09-11 16:33:24,325 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,330 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2023-09-11 16:33:24,350 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,350 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2023-09-11 16:33:24,362 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,362 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2023-09-11 16:33:24,394 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,399 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2023-09-11 16:33:24,430 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,430 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2023-09-11 16:33:24,483 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,483 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2023-09-11 16:33:24,515 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,519 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2023-09-11 16:33:24,570 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,570 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2023-09-11 16:33:24,600 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,600 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2023-09-11 16:33:24,624 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,624 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2023-09-11 16:33:24,650 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,650 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2023-09-11 16:33:24,674 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,674 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2023-09-11 16:33:24,710 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2023-09-11 16:33:24,710 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2023-09-11 16:33:25,342 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: null
+2023-09-11 16:33:26,112 [FATAL] Updater:282 - Updater called before beeing initialized
+2023-09-11 16:33:26,270 [FATAL] Updater:282 - Updater called before beeing initialized
+2023-09-11 16:33:26,270 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2023-09-11 16:33:26,270 [INFO] ThirdParty:777 - entering critical section [close project]
+2023-09-11 16:33:26,270 [INFO] ThirdParty:790 - exiting critical section [close project]
+2023-09-11 16:33:26,274 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2023-09-11 16:33:26,277 [FATAL] Updater:282 - Updater called before beeing initialized
+2023-09-11 16:33:26,281 [ERROR] Updater:967 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-09-11 16:33:26,281 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2023-09-11 16:33:26,296 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin\STM32_Programmer_CLI.exe -l
+2023-09-11 16:33:27,739 [INFO] MainDdrPanel:49 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2023-09-11 16:33:27,803 [INFO] Updater:904 - Updater Version found : 6.0.0
+2023-09-11 16:33:27,825 [INFO] ApplicationProperties:181 - Using Application install path: D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2023-09-11 16:33:29,937 [WARN] ServerAccessManage:1026 - Warning during Server Connexion :  timeout Read timed out
+2023-09-11 16:33:31,954 [WARN] ServerAccessManage:1026 - Warning during Server Connexion :  timeout connect timed out
+2023-09-11 16:33:31,954 [ERROR] ServerAccessManage:1004 - Warning during Server Connexion :  Unknown host www.ebuc23.com
+2023-09-11 16:33:31,954 [INFO] MainUpdater:2268 - connection check result : 22
+2023-09-11 16:33:31,970 [INFO] MainUpdater:239 - Updater Check For Update Now.
+2023-09-11 16:33:31,970 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2023-09-11 16:33:32,054 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2023-09-11 16:33:32,083 [ERROR] ServerAccessManage:1030 - Problem during Server Connexion :  IO error No route to host: connect
+2023-09-11 16:33:32,083 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.NoRouteToHostException: No route to host: connect
+2023-09-11 16:33:32,083 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+2023-09-11 16:33:32,083 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+2023-09-11 16:33:32,089 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+2023-09-11 16:33:32,090 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+2023-09-11 16:33:32,090 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+2023-09-11 16:33:32,090 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2023-09-11 16:33:32,094 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2023-09-11 16:33:32,094 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.Socket.connect(Socket.java:607)
+2023-09-11 16:33:32,097 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+2023-09-11 16:33:32,097 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+2023-09-11 16:33:32,097 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+2023-09-11 16:33:32,100 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+2023-09-11 16:33:32,100 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+2023-09-11 16:33:32,101 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+2023-09-11 16:33:32,115 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+2023-09-11 16:33:32,115 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+2023-09-11 16:33:32,115 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+2023-09-11 16:33:32,120 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+2023-09-11 16:33:32,121 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+2023-09-11 16:33:32,121 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+2023-09-11 16:33:32,121 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+2023-09-11 16:33:32,121 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:891)
+2023-09-11 16:33:32,130 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.getHttpFileSize(ServerAccessManage.java:571)
+2023-09-11 16:33:32,130 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performUpdaterHttpAccessCheck(LoadServerUpdatesThread.java:475)
+2023-09-11 16:33:32,130 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performConnectionCheckNoThread(LoadServerUpdatesThread.java:194)
+2023-09-11 16:33:32,134 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.MainUpdater.performConnectionCheck(MainUpdater.java:2249)
+2023-09-11 16:33:32,134 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.Updater.getSpecificTask(Updater.java:469)
+2023-09-11 16:33:32,134 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.firmawreupdater.UpdaterAdapter.getUpdaterStatus(UpdaterAdapter.java:182)
+2023-09-11 16:33:32,139 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.firmawreupdater.UpdaterAdapter.isUpdaterAvailable(UpdaterAdapter.java:291)
+2023-09-11 16:33:32,140 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.firmawreupdater.UpdaterAdapter.isUpdaterAvailable(UpdaterAdapter.java:252)
+2023-09-11 16:33:32,141 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.targetselector.TargetSelectorAdapter.addTargetSelector(TargetSelectorAdapter.java:137)
+2023-09-11 16:33:32,141 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.projectcreation.ui.wizard.TargetSetupPageAbstract.createControl(TargetSetupPageAbstract.java:137)
+2023-09-11 16:33:32,145 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:179)
+2023-09-11 16:33:32,145 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:743)
+2023-09-11 16:33:32,145 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:635)
+2023-09-11 16:33:32,145 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.jface.window.Window.create(Window.java:431)
+2023-09-11 16:33:32,145 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+2023-09-11 16:33:32,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+2023-09-11 16:33:32,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+2023-09-11 16:33:32,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+2023-09-11 16:33:32,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:412)
+2023-09-11 16:33:32,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+2023-09-11 16:33:32,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+2023-09-11 16:33:32,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+2023-09-11 16:33:32,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+2023-09-11 16:33:32,160 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+2023-09-11 16:33:32,161 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+2023-09-11 16:33:32,161 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+2023-09-11 16:33:32,161 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+2023-09-11 16:33:32,167 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+2023-09-11 16:33:32,170 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+2023-09-11 16:33:32,170 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+2023-09-11 16:33:32,174 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+2023-09-11 16:33:32,183 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+2023-09-11 16:33:32,183 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+2023-09-11 16:33:32,183 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+2023-09-11 16:33:32,191 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+2023-09-11 16:33:32,192 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+2023-09-11 16:33:32,199 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+2023-09-11 16:33:32,201 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+2023-09-11 16:33:32,201 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023-09-11 16:33:32,204 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023-09-11 16:33:32,204 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023-09-11 16:33:32,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.lang.reflect.Method.invoke(Method.java:498)
+2023-09-11 16:33:32,210 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+2023-09-11 16:33:32,211 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+2023-09-11 16:33:32,211 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+2023-09-11 16:33:32,211 [ERROR] ServerAccessManage:1004 - Warning during Server Connexion :  Unknown host www.ebuc23.com
+2023-09-11 16:33:32,211 [INFO] MainUpdater:2268 - connection check result : 22
+2023-09-11 16:33:34,160 [WARN] IntegrityCheckThread:61 - waiting for thirdparty lock release [integrity check]
+2023-09-11 16:33:34,160 [INFO] IntegrityCheckThread:63 - entering critical section [integrity check]
+2023-09-11 16:33:34,172 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/DELL/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2023-09-11 16:33:34,180 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/DELL/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2023-09-11 16:33:34,185 [INFO] IntegrityCheckThread:76 - exiting critical section [integrity check]
+2023-09-11 16:33:34,185 [INFO] IntegrityCheckThread:79 - End integrity checks thread
+2023-09-11 16:33:41,414 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-09-11 16:33:41,542 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\DELL\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2023-09-11 16:33:41,542 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2023-09-11 16:33:41,549 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2023-09-11 16:33:41,550 [INFO] DbMcusXml:100 - Load MCU database from D:\EME_Embedded_EUI\IDEs\STM_cube\STM_CUBE_VER_1_4\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/families.xml
+2023-09-11 16:33:42,173 [INFO] DbMcusJson:92 - JSON generation date=Thu Jul 02 17:47:47 EET 2020 (1593704867)
+2023-09-11 16:33:42,910 [INFO] DbMcus:175 - Found 1761 MCUs (1722 are supported by CubeMX, 1728 are visible in CubeMX)
+2023-09-11 16:33:42,910 [INFO] ApiDb:201 - Load user favorites file C:\Users\DELL/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2023-09-11 16:33:42,910 [INFO] ApiDb:205 - User favorites MCUs=[STM32F103C8Tx]
+2023-09-11 16:33:42,910 [INFO] DbMcus:187 - Set 1 / 1 favorites MCUs
+2023-09-11 16:33:43,541 [INFO] McuFilterPanel:245 - Update 1 favorites MCUs
+2023-09-11 16:33:43,610 [INFO] DbBoardsPdsc:94 - Found 23 items
+2023-09-11 16:33:43,622 [INFO] DbBoardsPdsc:94 - Found 9 items
+2023-09-11 16:33:43,636 [INFO] DbBoardsPdsc:94 - Found 29 items
+2023-09-11 16:33:43,642 [INFO] DbBoardsPdsc:94 - Found 1 items
+2023-09-11 16:33:43,662 [INFO] DbBoardsPdsc:94 - Found 44 items
+2023-09-11 16:33:43,684 [INFO] DbBoardsPdsc:94 - Found 40 items
+2023-09-11 16:33:43,697 [INFO] DbBoardsPdsc:94 - Found 2 items
+2023-09-11 16:33:43,709 [INFO] DbBoardsPdsc:94 - Found 4 items
+2023-09-11 16:33:43,720 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2023-09-11 16:33:43,720 [WARN] DbBoardsPdsc:258 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2023-09-11 16:33:43,724 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2023-09-11 16:33:43,724 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2023-09-11 16:33:43,724 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2023-09-11 16:33:43,784 [INFO] DbBoardsJson:85 - JSON generation date=Thu Jul 02 15:35:57 EET 2020 (1593696957)
+2023-09-11 16:33:43,792 [INFO] DbBoards:117 - Found 152 boards (149 are supported by CubeMX)
+2023-09-11 16:33:43,830 [INFO] DbBoardsDocs:145 - JSON generation date=Thu Jul 02 17:47:47 EET 2020 (1593704867)
+2023-09-11 16:33:43,849 [INFO] DbBoardsDocs:81 - Found 185 boards documents
+2023-09-11 16:33:43,850 [WARN] DbBoards:149 - board B-G474E-DPOW1 / document id not found: 4624
+2023-09-11 16:33:43,850 [WARN] DbBoards:149 - board B-G474E-DPOW1 / document id not found: 4625
+2023-09-11 16:33:43,850 [WARN] DbBoards:127 - board B-L462E-CELL1 has no document id list !
+2023-09-11 16:33:43,850 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board NUCLEO-G491RE has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board NUCLEO-H723ZG has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board NUCLEO-H743ZI2 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board NUCLEO-WB55RG has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32H735G-DK has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32MP157A-DK1 has no document id list !
+2023-09-11 16:33:43,852 [WARN] DbBoards:127 - board STM32MP157F-EV1 has no document id list !
+2023-09-11 16:33:43,989 [ERROR] DbBoards:192 - No image file URL for board B-L462E-CELL1
+2023-09-11 16:33:45,440 [INFO] ApiDb:192 - User favorites file not found: C:\Users\DELL/.stm32cubeide/favorites.boards.txt
+2023-09-11 16:33:45,440 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2023-09-11 16:33:47,815 [INFO] ApiDb:226 - Save user favorites file C:\Users\DELL/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2023-09-11 16:33:47,819 [INFO] ApiDb:230 - User favorites MCUs=[STM32F103C8Tx]
+2023-09-12 14:24:17,747 [INFO] Activator:178 - 
+
+
+2023-09-12 14:24:17,747 [INFO] Activator:179 - !SESSION log4j initialized
+2023-09-12 14:24:33,006 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:24:33,006 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:24:33,181 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:24:33,181 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:24:33,292 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:24:33,292 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:37,493 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:37,493 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:37,635 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:37,635 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:37,760 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:37,760 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:37,916 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:37,916 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:38,041 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:38,041 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:38,244 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:38,244 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:38,574 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:38,574 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:38,715 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:38,715 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:38,857 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:38,857 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:38,999 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:38,999 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:39,124 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:39,124 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 14:48:39,280 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:10: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+2023-09-12 14:48:39,280 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-12 15:26:32,947 [INFO] Activator:178 - 
+
+
+2023-09-12 15:26:32,952 [INFO] Activator:179 - !SESSION log4j initialized

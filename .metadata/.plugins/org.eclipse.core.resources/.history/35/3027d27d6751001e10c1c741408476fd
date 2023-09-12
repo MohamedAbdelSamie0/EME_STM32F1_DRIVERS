@@ -1,0 +1,60 @@
+/*********************************************************************************/
+/*	Module		: EXTI
+ *	File name	: EXTI_program.c
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 09/09/2023
+*********************************************************************************/
+
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+
+#include "EXTI_interface.h"
+#include "EXTI_Cfg.h"
+#include "EXTI_private.h"
+
+/*	Callback Global variable (function pointer) */
+static void (*EXTI_CallBack[16]) (void);
+
+void EXTI_voidInit(void)
+{
+}
+
+void EXTI_voidEnableEXTI(EXTI_line_t EXTILine_n, uint8 Copy_u8EXTImode)
+{
+	switch (Copy_u8EXTImode)
+	{
+		case RISING_EDGE:
+			SET_BIT(EXTI-> RTSR, EXTILine_n);
+			CLR_BIT(EXTI-> FTSR, EXTILine_n);
+			break;
+		case FALLING_EDGE:
+			SET_BIT(EXTI-> FTSR, EXTILine_n);
+			CLR_BIT(EXTI-> RTSR, EXTILine_n);
+		case RISING_FALLING:
+			SET_BIT(EXTI-> RTSR, EXTILine_n);
+			SET_BIT(EXTI-> FTSR, EXTILine_n);
+		default:
+			break;
+	}
+	SET_BIT(EXTI-> IMR, EXTILine_n);	/*	line interrupt is un-masked to enable it	*/
+}
+
+void EXTI_voidDisableEXTI(EXTI_line_t EXTILine_n)
+{
+	CLR_BIT(EXTI-> IMR, EXTILine_n);
+}
+
+void EXTI_voidSoftwareTrigger(EXTI_line_t EXTILine_n)
+{
+	SET_BIT(EXTI-> SWIER, EXTILine_n);
+}
+
+void EXTI0_IRQHandler(void)
+{
+	if(EXTI_CallBack[0] != NULL_PTR)
+	{
+		EXTI_CallBack[0]();
+	}
+	SET_BIT(EXTI-> PR, 0);	/*	CLEAR interrupt flag	*/
+}

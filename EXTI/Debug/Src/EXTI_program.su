@@ -1,5 +1,11 @@
 EXTI_program.c:19:6:EXTI_voidInit	4	static
 EXTI_program.c:23:6:EXTI_voidEnableEXTI	16	static
-EXTI_program.c:43:6:EXTI_voidDisableEXTI	16	static
-EXTI_program.c:48:6:EXTI_voidSoftwareTrigger	16	static
-EXTI_program.c:53:6:EXTI0_IRQHandler	8	static
+EXTI_program.c:47:6:EXTI_voidDisableEXTI	16	static
+EXTI_program.c:52:6:EXTI_voidSoftwareTrigger	16	static
+EXTI_program.c:57:6:EXTI0_IRQHandler	8	static
+EXTI_program.c:66:6:EXTI1_IRQHandler	8	static
+EXTI_program.c:75:6:EXTI2_IRQHandler	8	static
+EXTI_program.c:84:6:EXTI3_IRQHandler	8	static
+EXTI_program.c:93:6:EXTI4_IRQHandler	8	static
+EXTI_program.c:102:6:EXTI9_5_IRQHandler	16	static
+EXTI_program.c:120:6:EXTI15_10_IRQHandler	16	static

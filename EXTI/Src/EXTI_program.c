@@ -22,22 +22,26 @@ void EXTI_voidInit(void)
 
 void EXTI_voidEnableEXTI(EXTI_line_t EXTILine_n, uint8 Copy_u8EXTImode)
 {
+	SET_BIT(EXTI-> IMR, EXTILine_n);	/*	line interrupt is un-masked to enable it	*/
+
 	switch (Copy_u8EXTImode)
 	{
 		case RISING_EDGE:
 			SET_BIT(EXTI-> RTSR, EXTILine_n);
-			CLR_BIT(EXTI-> RTSR, EXTILine_n);
+			CLR_BIT(EXTI-> FTSR, EXTILine_n);
 			break;
+
 		case FALLING_EDGE:
 			SET_BIT(EXTI-> FTSR, EXTILine_n);
-			CLR_BIT(EXTI-> FTSR, EXTILine_n);
+			CLR_BIT(EXTI-> RTSR, EXTILine_n);
+
 		case RISING_FALLING:
 			SET_BIT(EXTI-> RTSR, EXTILine_n);
 			SET_BIT(EXTI-> FTSR, EXTILine_n);
+
 		default:
 			break;
 	}
-	SET_BIT(EXTI-> IMR, EXTILine_n);	/*	line interrupt is un-masked to enable it	*/
 }
 
 void EXTI_voidDisableEXTI(EXTI_line_t EXTILine_n)
@@ -52,9 +56,81 @@ void EXTI_voidSoftwareTrigger(EXTI_line_t EXTILine_n)
 
 void EXTI0_IRQHandler(void)
 {
-	if(EXTI_CallBack[0] != NULL_PTR)
+	if(EXTI_CallBack[EXTI_LINE0] != NULL_PTR)
 	{
-		EXTI_CallBack[0]();
+		EXTI_CallBack[EXTI_LINE0]();
 	}
-	SET_BIT(EXTI-> PR, 0);	/*	CLEAR interrupt flag	*/
+	SET_BIT(EXTI-> PR, EXTI_LINE0);	/*	CLEAR interrupt flag	*/
+}
+
+void EXTI1_IRQHandler(void)
+{
+	if(EXTI_CallBack[EXTI_LINE1] != NULL_PTR)
+	{
+		EXTI_CallBack[EXTI_LINE1]();
+	}
+	SET_BIT(EXTI-> PR, EXTI_LINE1);	/*	CLEAR interrupt flag	*/
+}
+
+void EXTI2_IRQHandler(void)
+{
+	if(EXTI_CallBack[EXTI_LINE2] != NULL_PTR)
+	{
+		EXTI_CallBack[EXTI_LINE2]();
+	}
+	SET_BIT(EXTI-> PR, EXTI_LINE2);	/*	CLEAR interrupt flag	*/
+}
+
+void EXTI3_IRQHandler(void)
+{
+	if(EXTI_CallBack[EXTI_LINE3] != NULL_PTR)
+	{
+		EXTI_CallBack[EXTI_LINE3]();
+	}
+	SET_BIT(EXTI-> PR, EXTI_LINE3);	/*	CLEAR interrupt flag	*/
+}
+
+void EXTI4_IRQHandler(void)
+{
+	if(EXTI_CallBack[EXTI_LINE4] != NULL_PTR)
+	{
+		EXTI_CallBack[EXTI_LINE4]();
+	}
+	SET_BIT(EXTI-> PR, EXTI_LINE4);	/*	CLEAR interrupt flag	*/
+}
+
+void EXTI9_5_IRQHandler(void)
+{
+	uint8 Local_EXTIn = 0;
+	uint8 Local_counter = 0;
+
+	for(Local_counter = EXTI_LINE5; Local_counter <= EXTI_LINE9; Local_counter++)
+	{
+		Local_EXTIn = GET_BIT(EXTI-> PR, Local_counter);	/*	check for active IRQ	*/
+		if( (Local_EXTIn == 1) && (EXTI_CallBack[Local_counter] != NULL_PTR) )
+		{
+			EXTI_CallBack[Local_counter]();
+		}
+		Local_EXTIn = 0;
+		SET_BIT(EXTI-> PR, Local_counter);	/*	CLEAR interrupt flag	*/
+	}
+	EXTI->PR |= 0x3E0;	/*	CLEAR all interrupt flags from EXTI 5->9 just to be sure	*/
+}
+
+void EXTI15_10_IRQHandler(void)
+{
+	uint8 Local_EXTIn = 0;
+		uint8 Local_counter = 0;
+
+		for(Local_counter = EXTI_LINE10; Local_counter <= EXTI_LINE15; Local_counter++)
+		{
+			Local_EXTIn = GET_BIT(EXTI-> PR, Local_counter);	/*	check for active IRQ	*/
+			if( (Local_EXTIn == 1) && (EXTI_CallBack[Local_counter] != NULL_PTR) )
+			{
+				EXTI_CallBack[Local_counter]();
+			}
+			Local_EXTIn = 0;
+			SET_BIT(EXTI-> PR, Local_counter);	/*	CLEAR interrupt flag	*/
+		}
+		EXTI->PR |= 0xFC00;	/*	CLEAR all interrupt flags from EXTI 5->9 just to be sure	*/
 }

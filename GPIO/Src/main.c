@@ -17,8 +17,6 @@
  */
 
 #include <stdint.h>
-#include "GPIO_interface.h"
-#include "RCC_interface.h"
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
@@ -26,13 +24,4 @@
 
 int main(void)
 {
-	RCC_voidInitSysClock();
-	RCC_voidEnableClock(RCC_APB2, APB2_GPIOA_EN);
-    GPIO_voidSetPinDirection(GPIO_A, PIN_2, OUTPUT_SPEED_2MHZ_PUSH_PULL);
-
-    while(1)
-    {
-    	GPIO_voidTogglePinValue(GPIO_A, PIN_2);
-    	for(int i = 0; i < 50000; i++);
-    }
 }
