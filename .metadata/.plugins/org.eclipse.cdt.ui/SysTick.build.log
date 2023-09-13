@@ -1,0 +1,24 @@
+19:28:17 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/SysTick_program.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/SysTick_program.d" -MT"Src/SysTick_program.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/SysTick_program.o"
+../Src/SysTick_program.c: In function 'SysTick_Handler':
+../Src/SysTick_program.c:116:8: warning: variable 'Local_u8TempFlagRead' set but not used [-Wunused-but-set-variable]
+  uint8 Local_u8TempFlagRead = 0;
+        ^~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "SysTick.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\SysTick\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SysTick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SysTick.elf
+ 
+arm-none-eabi-objdump -h -S  SysTick.elf  > "SysTick.list"
+arm-none-eabi-objcopy  -O binary  SysTick.elf  "SysTick.bin"
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+    680	      8	   1576	   2264	    8d8	SysTick.elf
+Finished building: default.size.stdout
+Finished building: SysTick.list
+Finished building: SysTick.bin
+ 
+ 
+ 
+
+19:28:17 Build Finished. 0 errors, 1 warnings. (took 536ms)
+

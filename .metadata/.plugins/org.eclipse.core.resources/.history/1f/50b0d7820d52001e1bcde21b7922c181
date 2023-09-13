@@ -1,0 +1,14 @@
+/*********************************************************************************/
+/*	Module		: SysTick
+ *	File name	: SysTick_private.h
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 13/09/2023
+*********************************************************************************/
+
+#ifndef SYSTICK_PRIVATE_H_
+#define SYSTICK_PRIVATE_H_
+
+
+
+#endif /* SYSTICK_PRIVATE_H_ */

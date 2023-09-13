@@ -1,0 +1,100 @@
+/*********************************************************************************/
+/*	Module		: SysTick
+ *	File name	: SysTick_program.c
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 13/09/2023
+*********************************************************************************/
+#include "BIT_MATH.h"
+
+#include "SysTick_Cfg.h"
+#include "SysTick_private.h"
+#include "SysTick_interface.h"
+
+/* pointer to function global variable */
+static void (*STK_CallBack)(void);
+
+/* interval mode variable	*/
+static uint8 STk_u8IntervalMode;
+
+
+
+
+void STK_voidInit(void)
+{
+#if CLK_SOURCE == STK_SOURCE_CLK_AHB
+
+	SET_BIT(SysTick-> CTRL, 2);	/*	set the source clock bit for AHB clock	*/
+
+#elif CLK_SOURCE == STK_SOURCE_CLK_AHB_8
+
+	CLR_BIT(SysTick-> CTRL, 2)	/* clear the source clock bit for AHB/8	*/
+
+#endif
+	SysTick-> VAL = 0x00;	/*	clear current value in timer and clear count flag	*/
+}
+
+void STK_voidSetDelay(uint32 Copy_u32Ticks)
+{
+	if( Copy_u32Ticks >= 0x01 && Copy_u32Ticks <= 0x00FFFFFF)
+	{
+		SysTick-> LOAD = Copy_u32Ticks;	/*	set reload value	*/
+
+		SET_BIT(SysTick-> CTRL, 0);		/*	start timer count-down	*/
+
+		while(GET_BIT(SysTick-> CTRL, 16) == 0){}	/* check for flag and wait for timer to count to zero	*/
+
+		/*	stop timer	*/
+		CLR_BIT(SysTick-> CTRL, 0);
+		SysTick-> LOAD = 0;
+		SysTick-> VAL = 0;
+	}
+	else
+	{
+		/*	donothing; error handling	*/
+	}
+}
+
+void STK_voidSetIntervalSingleShot(uint32 Copy_u32Ticks, void(*Func_ptr)(void))
+{
+	if( Copy_u32Ticks >= 0x01 && Copy_u32Ticks <= 0x00FFFFFF)
+	{
+		SysTick-> LOAD = Copy_u32Ticks;	/*	set reload value	*/
+
+		STK_CallBack = Func_ptr;	/* set callback function	*/
+
+		STk_u8IntervalMode = SINGLE_SHOT_TIMER;	/* set timer mode	*/
+
+		SET_BIT(SysTick-> CTRL, 0);		/*	start timer count-down	*/
+
+		SET_BIT(SysTick-> CTRL, 1);		/* enable SysTick interrupt	*/
+	}
+	else
+	{
+		/*	do nothing; error handling	*/
+	}
+}
+
+void STK_voidStopSingleShot(void)
+{
+	/* Disable STk Interrupt */
+	CLR_BIT(SysTick-> CTRL, 1);
+
+	/* Stop Timer */
+	CLR_BIT(SysTick-> CTRL, 0);
+	SysTick-> LOAD = 0 ;
+	SysTick-> VAL = 0;
+}
+
+void SysTick_Handler(void)
+{
+	uint8 Local_u8TempFlagRead = 0;
+
+	if(STK_CallBack != NULL_PTR)
+	{
+		if(STk_u8IntervalMode == SINGLE_SHOT_TIMER)
+		{
+			STK_void
+		}
+	}
+}

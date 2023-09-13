@@ -1,0 +1,13 @@
+/*
+ * SysTick_interface.h
+ *
+ *  Created on: Sep 13, 2023
+ *      Author: DELL
+ */
+
+#ifndef SYSTICK_INTERFACE_H_
+#define SYSTICK_INTERFACE_H_
+
+
+
+#endif /* SYSTICK_INTERFACE_H_ */

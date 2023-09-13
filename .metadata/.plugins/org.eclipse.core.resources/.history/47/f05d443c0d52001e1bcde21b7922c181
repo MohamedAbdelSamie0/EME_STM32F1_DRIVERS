@@ -1,0 +1,13 @@
+/*
+ * SysTick_private.h
+ *
+ *  Created on: Sep 13, 2023
+ *      Author: DELL
+ */
+
+#ifndef SYSTICK_PRIVATE_H_
+#define SYSTICK_PRIVATE_H_
+
+
+
+#endif /* SYSTICK_PRIVATE_H_ */

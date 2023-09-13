@@ -1,0 +1,17 @@
+/*********************************************************************************/
+/*	Module		: SysTick
+ *	File name	: SysTick_interface.h
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 13/09/2023
+*********************************************************************************/
+
+#ifndef SYSTICK_INTERFACE_H_
+#define SYSTICK_INTERFACE_H_
+
+/*	SysTick Interval modes	*/
+/*	SysTick	source clock options	*/
+#define STK_SOURCE_CLK_AHB			0
+#define STK_SOURCE_CLK_AHB_8		1
+
+#endif /* SYSTICK_INTERFACE_H_ */

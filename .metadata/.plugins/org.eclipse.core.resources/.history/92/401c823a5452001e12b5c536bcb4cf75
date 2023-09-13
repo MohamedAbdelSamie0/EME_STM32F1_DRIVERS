@@ -1,0 +1,27 @@
+/*********************************************************************************/
+/*	Module		: SysTick
+ *	File name	: SysTick_program.c
+ *
+ * 	Author    	: Mohamed Abdelsamie
+ * 	Date      	: 13/09/2023
+*********************************************************************************/
+#include "BIT_MATH.h"
+
+#include "SysTick_Cfg.h"
+#include "SysTick_private.h"
+#include "SysTick_interface.h"
+
+void STK_voidInit(void)
+{
+#if CLK_SOURCE == STK_SOURCE_CLK_AHB
+
+	SET_BIT(SysTick-> CTRL, 2);	/*	set the source clock bit for AHB clock	*/
+
+#elif CLK_SOURCE == STK_SOURCE_CLK_AHB_8
+
+	CLR_BIT(SysTick-> CTRL, 2)	/* clear the source clock bit for AHB/8	*/
+
+#endif
+	SysTick-> VAL = 0x00;
+}
+
