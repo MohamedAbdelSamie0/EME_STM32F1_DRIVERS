@@ -27,23 +27,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000029  00000000  00000000  000102b0  2**0
                   CONTENTS, READONLY
- 12 .debug_info   00000258  00000000  00000000  000102d9  2**0
+ 12 .debug_info   000002af  00000000  00000000  000102d9  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_abbrev 00000129  00000000  00000000  00010531  2**0
+ 13 .debug_abbrev 0000014c  00000000  00000000  00010588  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_aranges 00000098  00000000  00000000  00010660  2**3
+ 14 .debug_aranges 000000a0  00000000  00000000  000106d8  2**3
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_ranges 00000070  00000000  00000000  000106f8  2**3
+ 15 .debug_ranges 00000078  00000000  00000000  00010778  2**3
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_macro  00000b59  00000000  00000000  00010768  2**0
+ 16 .debug_macro  00000b74  00000000  00000000  000107f0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_line   00000210  00000000  00000000  000112c1  2**0
+ 17 .debug_line   0000025b  00000000  00000000  00011364  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    0000308a  00000000  00000000  000114d1  2**0
+ 18 .debug_str    0000309c  00000000  00000000  000115bf  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  0001455b  2**0
+ 19 .comment      0000007b  00000000  00000000  0001465b  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00000168  00000000  00000000  000145d8  2**2
+ 20 .debug_frame  00000188  00000000  00000000  000146d8  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -172,10 +172,10 @@ void SysTick_Handler(void)
  80001e8:	e000e010 	.word	0xe000e010
 
 080001ec <main>:
-#if !defined(__SOFT_FP__) && defined(__ARM_FP)
-  #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
-#endif
-
+void STK_voidHandler(void)
+{
+	/*	add systick interrupt handler function	*/
+}
 int main(void)
 {
  80001ec:	b480      	push	{r7}

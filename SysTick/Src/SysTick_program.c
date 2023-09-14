@@ -28,7 +28,7 @@ void STK_voidInit(void)
 
 #elif CLK_SOURCE == STK_SOURCE_CLK_AHB_8
 
-	CLR_BIT(SysTick-> CTRL, 2)	/* clear the source clock bit for AHB/8	*/
+	CLR_BIT(SysTick-> CTRL, 2);	/* clear the source clock bit for AHB/8	*/
 
 #endif
 	SysTick-> VAL = 0x00;	/*	clear current value in timer and clear count flag	*/

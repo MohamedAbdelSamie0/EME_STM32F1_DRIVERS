@@ -1,348 +1,272 @@
-18:35:56 **** Clean-only build of configuration Debug for project SysTick ****
-make -j8 clean 
-rm -rf *
+08:45:01 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      8	   1576	   3168	    c60	SysTick.elf
+Finished building: default.size.stdout
  
-18:35:58 **** Incremental Build of configuration Debug for project AFIO ****
+08:45:07 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      8	   1576	   3168	    c60	SysTick.elf
+Finished building: default.size.stdout
+ 
+08:52:55 **** Incremental Build of configuration Debug for project AFIO ****
 make -j8 all 
 arm-none-eabi-size   AFIO.elf 
    text	   data	    bss	    dec	    hex	filename
     556	      8	   1568	   2132	    854	AFIO.elf
 Finished building: default.size.stdout
  
-18:35:58 **** Incremental Build of configuration Debug for project EXTI ****
+08:52:55 **** Incremental Build of configuration Debug for project EXTI ****
 make -j8 all 
 arm-none-eabi-size   EXTI.elf 
    text	   data	    bss	    dec	    hex	filename
    1040	      8	   1632	   2680	    a78	EXTI.elf
 Finished building: default.size.stdout
  
-18:35:58 **** Incremental Build of configuration Debug for project GPIO ****
+08:52:56 **** Incremental Build of configuration Debug for project GPIO ****
 make -j8 all 
 arm-none-eabi-size   GPIO.elf 
    text	   data	    bss	    dec	    hex	filename
     564	      8	   1568	   2140	    85c	GPIO.elf
 Finished building: default.size.stdout
  
-18:35:59 **** Incremental Build of configuration Debug for project NVIC ****
+08:52:56 **** Incremental Build of configuration Debug for project NVIC ****
 make -j8 all 
 arm-none-eabi-size   NVIC.elf 
    text	   data	    bss	    dec	    hex	filename
     556	      8	   1568	   2132	    854	NVIC.elf
 Finished building: default.size.stdout
  
-18:35:59 **** Incremental Build of configuration Debug for project RCC ****
+08:52:56 **** Incremental Build of configuration Debug for project RCC ****
 make -j8 all 
 arm-none-eabi-size   RCC.elf 
    text	   data	    bss	    dec	    hex	filename
     788	      8	   1568	   2364	    93c	RCC.elf
 Finished building: default.size.stdout
  
-18:35:59 **** Build of configuration Debug for project SysTick ****
+08:52:57 **** Incremental Build of configuration Debug for project SysTick ****
 make -j8 all 
-arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c8tx.d" -MT"Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c8tx.o" "../Startup/startup_stm32f103c8tx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "SysTick.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\SysTick\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SysTick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SysTick.elf
+ 
+arm-none-eabi-objdump -h -S  SysTick.elf  > "SysTick.list"
+arm-none-eabi-objcopy  -O binary  SysTick.elf  "SysTick.bin"
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      8	   1576	   3168	    c60	SysTick.elf
+Finished building: default.size.stdout
+Finished building: SysTick.list
+Finished building: SysTick.bin
+ 
+ 
+ 
+08:52:58 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      8	   1576	   3168	    c60	SysTick.elf
+Finished building: default.size.stdout
+ 
+08:53:37 **** Incremental Build of configuration Debug for project AFIO ****
+make -j8 all 
+arm-none-eabi-size   AFIO.elf 
+   text	   data	    bss	    dec	    hex	filename
+    556	      8	   1568	   2132	    854	AFIO.elf
+Finished building: default.size.stdout
+ 
+08:53:37 **** Incremental Build of configuration Debug for project EXTI ****
+make -j8 all 
+arm-none-eabi-size   EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1040	      8	   1632	   2680	    a78	EXTI.elf
+Finished building: default.size.stdout
+ 
+08:53:38 **** Incremental Build of configuration Debug for project GPIO ****
+make -j8 all 
+arm-none-eabi-size   GPIO.elf 
+   text	   data	    bss	    dec	    hex	filename
+    564	      8	   1568	   2140	    85c	GPIO.elf
+Finished building: default.size.stdout
+ 
+08:53:38 **** Incremental Build of configuration Debug for project NVIC ****
+make -j8 all 
+arm-none-eabi-size   NVIC.elf 
+   text	   data	    bss	    dec	    hex	filename
+    556	      8	   1568	   2132	    854	NVIC.elf
+Finished building: default.size.stdout
+ 
+08:53:38 **** Incremental Build of configuration Debug for project RCC ****
+make -j8 all 
+arm-none-eabi-size   RCC.elf 
+   text	   data	    bss	    dec	    hex	filename
+    788	      8	   1568	   2364	    93c	RCC.elf
+Finished building: default.size.stdout
+ 
+08:53:39 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "SysTick.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\SysTick\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SysTick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SysTick.elf
+ 
+arm-none-eabi-objdump -h -S  SysTick.elf  > "SysTick.list"
+arm-none-eabi-objcopy  -O binary  SysTick.elf  "SysTick.bin"
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      8	   1576	   3168	    c60	SysTick.elf
+Finished building: default.size.stdout
+Finished building: SysTick.list
+Finished building: SysTick.bin
+ 
+ 
+ 
+08:53:40 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      8	   1576	   3168	    c60	SysTick.elf
+Finished building: default.size.stdout
+ 
+08:53:45 **** Incremental Build of configuration Debug for project AFIO ****
+make -j8 all 
+arm-none-eabi-size   AFIO.elf 
+   text	   data	    bss	    dec	    hex	filename
+    556	      8	   1568	   2132	    854	AFIO.elf
+Finished building: default.size.stdout
+ 
+08:53:45 **** Incremental Build of configuration Debug for project EXTI ****
+make -j8 all 
+arm-none-eabi-size   EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1040	      8	   1632	   2680	    a78	EXTI.elf
+Finished building: default.size.stdout
+ 
+08:53:45 **** Incremental Build of configuration Debug for project GPIO ****
+make -j8 all 
+arm-none-eabi-size   GPIO.elf 
+   text	   data	    bss	    dec	    hex	filename
+    564	      8	   1568	   2140	    85c	GPIO.elf
+Finished building: default.size.stdout
+ 
+08:53:46 **** Incremental Build of configuration Debug for project NVIC ****
+make -j8 all 
+arm-none-eabi-size   NVIC.elf 
+   text	   data	    bss	    dec	    hex	filename
+    556	      8	   1568	   2132	    854	NVIC.elf
+Finished building: default.size.stdout
+ 
+08:53:46 **** Incremental Build of configuration Debug for project RCC ****
+make -j8 all 
+arm-none-eabi-size   RCC.elf 
+   text	   data	    bss	    dec	    hex	filename
+    788	      8	   1568	   2364	    93c	RCC.elf
+Finished building: default.size.stdout
+ 
+08:53:46 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      8	   1576	   3168	    c60	SysTick.elf
+Finished building: default.size.stdout
+ 
+08:53:49 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
+arm-none-eabi-size   SysTick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      8	   1576	   3168	    c60	SysTick.elf
+Finished building: default.size.stdout
+ 
+08:56:08 **** Incremental Build of configuration Debug for project AFIO ****
+make -j8 all 
+arm-none-eabi-size   AFIO.elf 
+   text	   data	    bss	    dec	    hex	filename
+    556	      8	   1568	   2132	    854	AFIO.elf
+Finished building: default.size.stdout
+ 
+08:56:09 **** Incremental Build of configuration Debug for project EXTI ****
+make -j8 all 
+arm-none-eabi-size   EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1040	      8	   1632	   2680	    a78	EXTI.elf
+Finished building: default.size.stdout
+ 
+08:56:09 **** Incremental Build of configuration Debug for project GPIO ****
+make -j8 all 
+arm-none-eabi-size   GPIO.elf 
+   text	   data	    bss	    dec	    hex	filename
+    564	      8	   1568	   2140	    85c	GPIO.elf
+Finished building: default.size.stdout
+ 
+08:56:09 **** Incremental Build of configuration Debug for project NVIC ****
+make -j8 all 
+arm-none-eabi-size   NVIC.elf 
+   text	   data	    bss	    dec	    hex	filename
+    556	      8	   1568	   2132	    854	NVIC.elf
+Finished building: default.size.stdout
+ 
+08:56:09 **** Incremental Build of configuration Debug for project RCC ****
+make -j8 all 
+arm-none-eabi-size   RCC.elf 
+   text	   data	    bss	    dec	    hex	filename
+    788	      8	   1568	   2364	    93c	RCC.elf
+Finished building: default.size.stdout
+ 
+08:56:10 **** Incremental Build of configuration Debug for project SysTick ****
+make -j8 all 
 arm-none-eabi-gcc "../Src/SysTick_program.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/SysTick_program.d" -MT"Src/SysTick_program.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/SysTick_program.o"
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
-arm-none-eabi-gcc -o "SysTick.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\SysTick\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SysTick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: SysTick.elf
- 
-arm-none-eabi-size   SysTick.elf 
-arm-none-eabi-objdump -h -S  SysTick.elf  > "SysTick.list"
-arm-none-eabi-objcopy  -O binary  SysTick.elf  "SysTick.bin"
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	SysTick.elf
-Finished building: default.size.stdout
- 
-Finished building: SysTick.list
-Finished building: SysTick.bin
- 
- 
-19:26:54 **** Incremental Build of configuration Debug for project AFIO ****
-make -j8 all 
-arm-none-eabi-size   AFIO.elf 
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	AFIO.elf
-Finished building: default.size.stdout
- 
-19:26:55 **** Incremental Build of configuration Debug for project EXTI ****
-make -j8 all 
-arm-none-eabi-size   EXTI.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1040	      8	   1632	   2680	    a78	EXTI.elf
-Finished building: default.size.stdout
- 
-19:26:55 **** Incremental Build of configuration Debug for project GPIO ****
-make -j8 all 
-arm-none-eabi-size   GPIO.elf 
-   text	   data	    bss	    dec	    hex	filename
-    564	      8	   1568	   2140	    85c	GPIO.elf
-Finished building: default.size.stdout
- 
-19:26:55 **** Incremental Build of configuration Debug for project NVIC ****
-make -j8 all 
-arm-none-eabi-size   NVIC.elf 
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	NVIC.elf
-Finished building: default.size.stdout
- 
-19:26:56 **** Incremental Build of configuration Debug for project RCC ****
-make -j8 all 
-arm-none-eabi-size   RCC.elf 
-   text	   data	    bss	    dec	    hex	filename
-    788	      8	   1568	   2364	    93c	RCC.elf
-Finished building: default.size.stdout
- 
-19:26:56 **** Incremental Build of configuration Debug for project SysTick ****
-make -j8 all 
-arm-none-eabi-gcc "../Src/SysTick_program.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/SysTick_program.d" -MT"Src/SysTick_program.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/SysTick_program.o"
-../Src/SysTick_program.c: In function 'STK_voidSetIntervalMultiShot':
-../Src/SysTick_program.c:15:15: error: storage class specified for parameter 'STK_CallBack'
- static void (*STK_CallBack)(void);
-               ^~~~~~~~~~~~
-../Src/SysTick_program.c:18:14: error: storage class specified for parameter 'STk_u8IntervalMode'
- static uint8 STk_u8IntervalMode;
-              ^~~~~~~~~~~~~~~~~~
-../Src/SysTick_program.c:24:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
- {
- ^
-../Src/SysTick_program.c:38:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
- {
- ^
-../Src/SysTick_program.c:59:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
- {
- ^
-../Src/SysTick_program.c:79:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
- {
- ^
-../Src/SysTick_program.c:99:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
- {
- ^
-../Src/SysTick_program.c:104:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
- {
- ^
-../Src/SysTick_program.c:115:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
- {
- ^
-In file included from ../Src/SysTick_program.c:12:0:
-../Inc/SysTick_interface.h:25:6: error: old-style parameter declarations in prototyped function definition
- void STK_voidSetIntervalMultiShot(uint32 Copy_u32Ticks, void(*Func_ptr)(void))
-      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../Src/SysTick_program.c:136:1: error: expected '{' at end of input
- }
- ^
-make: *** [Src/subdir.mk:27: Src/SysTick_program.o] Error 1
+../Src/main.c:21:10: fatal error: RCC_interface.h: No such file or directory
+ #include "RCC_interface.h"
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Src/SysTick_program.c: In function 'SysTick_Handler':
+../Src/SysTick_program.c:116:8: warning: variable 'Local_u8TempFlagRead' set but not used [-Wunused-but-set-variable]
+  uint8 Local_u8TempFlagRead = 0;
+        ^~~~~~~~~~~~~~~~~~~~
+make: *** [Src/subdir.mk:29: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
 "make -j8 all" terminated with exit code 2. Build might be incomplete.
-19:27:10 **** Incremental Build of configuration Debug for project AFIO ****
+08:57:23 **** Incremental Build of configuration Debug for project AFIO ****
 make -j8 all 
 arm-none-eabi-size   AFIO.elf 
    text	   data	    bss	    dec	    hex	filename
     556	      8	   1568	   2132	    854	AFIO.elf
 Finished building: default.size.stdout
  
-19:27:10 **** Incremental Build of configuration Debug for project EXTI ****
+08:57:23 **** Incremental Build of configuration Debug for project EXTI ****
 make -j8 all 
 arm-none-eabi-size   EXTI.elf 
    text	   data	    bss	    dec	    hex	filename
    1040	      8	   1632	   2680	    a78	EXTI.elf
 Finished building: default.size.stdout
  
-19:27:10 **** Incremental Build of configuration Debug for project GPIO ****
+08:57:23 **** Incremental Build of configuration Debug for project GPIO ****
 make -j8 all 
 arm-none-eabi-size   GPIO.elf 
    text	   data	    bss	    dec	    hex	filename
     564	      8	   1568	   2140	    85c	GPIO.elf
 Finished building: default.size.stdout
  
-19:27:10 **** Incremental Build of configuration Debug for project NVIC ****
+08:57:24 **** Incremental Build of configuration Debug for project NVIC ****
 make -j8 all 
 arm-none-eabi-size   NVIC.elf 
    text	   data	    bss	    dec	    hex	filename
     556	      8	   1568	   2132	    854	NVIC.elf
 Finished building: default.size.stdout
  
-19:27:11 **** Incremental Build of configuration Debug for project RCC ****
+08:57:24 **** Incremental Build of configuration Debug for project RCC ****
 make -j8 all 
 arm-none-eabi-size   RCC.elf 
    text	   data	    bss	    dec	    hex	filename
     788	      8	   1568	   2364	    93c	RCC.elf
 Finished building: default.size.stdout
  
-19:27:11 **** Incremental Build of configuration Debug for project SysTick ****
+08:57:24 **** Incremental Build of configuration Debug for project SysTick ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/SysTick_program.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/SysTick_program.d" -MT"Src/SysTick_program.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/SysTick_program.o"
-../Src/SysTick_program.c: In function 'SysTick_Handler':
-../Src/SysTick_program.c:116:8: warning: variable 'Local_u8TempFlagRead' set but not used [-Wunused-but-set-variable]
-  uint8 Local_u8TempFlagRead = 0;
-        ^~~~~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "SysTick.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\SysTick\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SysTick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: SysTick.elf
- 
-arm-none-eabi-objdump -h -S  SysTick.elf  > "SysTick.list"
-arm-none-eabi-objcopy  -O binary  SysTick.elf  "SysTick.bin"
-arm-none-eabi-size   SysTick.elf 
-   text	   data	    bss	    dec	    hex	filename
-    680	      8	   1576	   2264	    8d8	SysTick.elf
-Finished building: default.size.stdout
-Finished building: SysTick.list
-Finished building: SysTick.bin
- 
- 
- 
-19:27:23 **** Incremental Build of configuration Debug for project AFIO ****
-make -j8 all 
-arm-none-eabi-size   AFIO.elf 
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	AFIO.elf
-Finished building: default.size.stdout
- 
-19:27:23 **** Incremental Build of configuration Debug for project EXTI ****
-make -j8 all 
-arm-none-eabi-size   EXTI.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1040	      8	   1632	   2680	    a78	EXTI.elf
-Finished building: default.size.stdout
- 
-19:27:23 **** Incremental Build of configuration Debug for project GPIO ****
-make -j8 all 
-arm-none-eabi-size   GPIO.elf 
-   text	   data	    bss	    dec	    hex	filename
-    564	      8	   1568	   2140	    85c	GPIO.elf
-Finished building: default.size.stdout
- 
-19:27:24 **** Incremental Build of configuration Debug for project NVIC ****
-make -j8 all 
-arm-none-eabi-size   NVIC.elf 
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	NVIC.elf
-Finished building: default.size.stdout
- 
-19:27:24 **** Incremental Build of configuration Debug for project RCC ****
-make -j8 all 
-arm-none-eabi-size   RCC.elf 
-   text	   data	    bss	    dec	    hex	filename
-    788	      8	   1568	   2364	    93c	RCC.elf
-Finished building: default.size.stdout
- 
-19:27:24 **** Incremental Build of configuration Debug for project SysTick ****
-make -j8 all 
-arm-none-eabi-gcc "../Src/SysTick_program.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/SysTick_program.d" -MT"Src/SysTick_program.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/SysTick_program.o"
-../Src/SysTick_program.c: In function 'SysTick_Handler':
-../Src/SysTick_program.c:116:8: warning: variable 'Local_u8TempFlagRead' set but not used [-Wunused-but-set-variable]
-  uint8 Local_u8TempFlagRead;
-        ^~~~~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "SysTick.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\SysTick\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SysTick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: SysTick.elf
- 
-arm-none-eabi-objdump -h -S  SysTick.elf  > "SysTick.list"
-arm-none-eabi-objcopy  -O binary  SysTick.elf  "SysTick.bin"
-arm-none-eabi-size   SysTick.elf 
-   text	   data	    bss	    dec	    hex	filename
-    676	      8	   1576	   2260	    8d4	SysTick.elf
-Finished building: default.size.stdout
-Finished building: SysTick.list
-Finished building: SysTick.bin
- 
- 
- 
-19:27:36 **** Incremental Build of configuration Debug for project AFIO ****
-make -j8 all 
-arm-none-eabi-size   AFIO.elf 
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	AFIO.elf
-Finished building: default.size.stdout
- 
-19:27:37 **** Incremental Build of configuration Debug for project EXTI ****
-make -j8 all 
-arm-none-eabi-size   EXTI.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1040	      8	   1632	   2680	    a78	EXTI.elf
-Finished building: default.size.stdout
- 
-19:27:37 **** Incremental Build of configuration Debug for project GPIO ****
-make -j8 all 
-arm-none-eabi-size   GPIO.elf 
-   text	   data	    bss	    dec	    hex	filename
-    564	      8	   1568	   2140	    85c	GPIO.elf
-Finished building: default.size.stdout
- 
-19:27:37 **** Incremental Build of configuration Debug for project NVIC ****
-make -j8 all 
-arm-none-eabi-size   NVIC.elf 
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	NVIC.elf
-Finished building: default.size.stdout
- 
-19:27:38 **** Incremental Build of configuration Debug for project RCC ****
-make -j8 all 
-arm-none-eabi-size   RCC.elf 
-   text	   data	    bss	    dec	    hex	filename
-    788	      8	   1568	   2364	    93c	RCC.elf
-Finished building: default.size.stdout
- 
-19:27:38 **** Incremental Build of configuration Debug for project SysTick ****
-make -j8 all 
-arm-none-eabi-gcc "../Src/SysTick_program.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/SysTick_program.d" -MT"Src/SysTick_program.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/SysTick_program.o"
-../Src/SysTick_program.c: In function 'SysTick_Handler':
-../Src/SysTick_program.c:116:8: warning: variable 'Local_u8TempFlagRead' set but not used [-Wunused-but-set-variable]
-  uint8 Local_u8TempFlagRead = 0;
-        ^~~~~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "SysTick.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\SysTick\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SysTick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: SysTick.elf
- 
-arm-none-eabi-objdump -h -S  SysTick.elf  > "SysTick.list"
-arm-none-eabi-objcopy  -O binary  SysTick.elf  "SysTick.bin"
-arm-none-eabi-size   SysTick.elf 
-   text	   data	    bss	    dec	    hex	filename
-    680	      8	   1576	   2264	    8d8	SysTick.elf
-Finished building: default.size.stdout
-Finished building: SysTick.list
-Finished building: SysTick.bin
- 
- 
- 
-19:28:15 **** Incremental Build of configuration Debug for project AFIO ****
-make -j8 all 
-arm-none-eabi-size   AFIO.elf 
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	AFIO.elf
-Finished building: default.size.stdout
- 
-19:28:16 **** Incremental Build of configuration Debug for project EXTI ****
-make -j8 all 
-arm-none-eabi-size   EXTI.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1040	      8	   1632	   2680	    a78	EXTI.elf
-Finished building: default.size.stdout
- 
-19:28:16 **** Incremental Build of configuration Debug for project GPIO ****
-make -j8 all 
-arm-none-eabi-size   GPIO.elf 
-   text	   data	    bss	    dec	    hex	filename
-    564	      8	   1568	   2140	    85c	GPIO.elf
-Finished building: default.size.stdout
- 
-19:28:16 **** Incremental Build of configuration Debug for project NVIC ****
-make -j8 all 
-arm-none-eabi-size   NVIC.elf 
-   text	   data	    bss	    dec	    hex	filename
-    556	      8	   1568	   2132	    854	NVIC.elf
-Finished building: default.size.stdout
- 
-19:28:16 **** Incremental Build of configuration Debug for project RCC ****
-make -j8 all 
-arm-none-eabi-size   RCC.elf 
-   text	   data	    bss	    dec	    hex	filename
-    788	      8	   1568	   2364	    93c	RCC.elf
-Finished building: default.size.stdout
- 
-19:28:17 **** Incremental Build of configuration Debug for project SysTick ****
-make -j8 all 
-arm-none-eabi-gcc "../Src/SysTick_program.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/SysTick_program.d" -MT"Src/SysTick_program.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/SysTick_program.o"
-../Src/SysTick_program.c: In function 'SysTick_Handler':
-../Src/SysTick_program.c:116:8: warning: variable 'Local_u8TempFlagRead' set but not used [-Wunused-but-set-variable]
-  uint8 Local_u8TempFlagRead = 0;
-        ^~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
 arm-none-eabi-gcc -o "SysTick.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\EME_Embedded_EUI\STM_F103C8T6_projects\SysTick\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SysTick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: SysTick.elf
  

@@ -1,4 +1,4 @@
-19:28:15 **** Incremental Build of configuration Debug for project AFIO ****
+08:57:23 **** Incremental Build of configuration Debug for project AFIO ****
 make -j8 all 
 arm-none-eabi-size   AFIO.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   AFIO.elf
 Finished building: default.size.stdout
  
 
-19:28:16 Build Finished. 0 errors, 0 warnings. (took 238ms)
+08:57:23 Build Finished. 0 errors, 0 warnings. (took 254ms)
 
